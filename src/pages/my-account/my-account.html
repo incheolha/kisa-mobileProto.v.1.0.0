@@ -10,7 +10,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>My Account</ion-title>
+    <ion-title>계정 정보</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -20,42 +20,42 @@
   <!-- username-->
   <ion-item class="no-border">
     <ion-avatar item-left>
-      <img src="assets/img/user/adam.jpg" alt="">
+      <img src="assets/img/user/tonyha.png" alt="">
     </ion-avatar>
-    <span class="strong">Adam Lambert</span>
+    <span class="strong">하 인철</span>
     <ion-icon name="ios-arrow-forward" item-right></ion-icon>
   </ion-item>
 
   <!-- Profile -->
   <ion-item-group>
 
-    <ion-item-divider bgColor>PROFILE</ion-item-divider>
+    <ion-item-divider bgColor>프로파일</ion-item-divider>
     <ion-item>
       <ion-icon name="md-create"></ion-icon>
-      Edit profile
+      내정보 수정
     </ion-item>
     <ion-item (click)="changePassword()">
       <ion-icon name="lock"></ion-icon>
-      Change password
+      비번변경
     </ion-item>
     <ion-item>
       <ion-icon name="md-share"></ion-icon>
-      Connected accounts
+      내계정 공유
     </ion-item>
     <ion-item>
       <ion-icon name="timer"></ion-icon>
-      Recent viewed
+      최근정보 보기
     </ion-item>
     <ion-item>
       <ion-icon name="pricetags"></ion-icon>
-      Saved Offers
+      특가 목록
     </ion-item>
 
   </ion-item-group>
 
   <!-- Other -->
   <ion-item-group>
-    <ion-item-divider bgColor>OTHERS</ion-item-divider>
+    <ion-item-divider bgColor>기타</ion-item-divider>
     <ion-item>
       <ion-icon name="podium"></ion-icon>
       Leaderboard

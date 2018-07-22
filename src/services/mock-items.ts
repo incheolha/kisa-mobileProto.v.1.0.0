@@ -2,7 +2,7 @@ export let ITEMS = [
   {
     id: 1,
     category_id: 1,
-    name: "Xiaomi Mi 4",
+    name: "스포츠",
     price: 300.0,
     sale_price: 250,
     shipping: 0,
@@ -10,12 +10,14 @@ export let ITEMS = [
     rating: 4.8,
     num_wish_list: 201,
     on_wish_list: false,
-    thumb: "assets/img/items/item_3.jpg",
+    thumb: "assets/img/mainCategory/sport5.jpg",
     images: [
-      "assets/img/items/detail/d_1.jpg",
-      "assets/img/items/detail/d_2.jpg",
-      "assets/img/items/detail/d_3.jpg",
-      "assets/img/items/detail/d_4.jpg",
+      "assets/img/mainCategory/sport5.jpg",
+      "assets/img/mainCategory/culture.jpg",
+      "assets/img/mainCategory/medical.jpg",
+      "assets/img/mainCategory/education.jpg",
+      "assets/img/mainCategory/project.jpg",
+      "assets/img/mainCategory/ads.jpg",
     ],
     short_description: "Original Xiaomi Mi4 M4 FDD LTE 4G Phone Snapdragon 801 Quad Core 5 Inch 1080P FHD IPS 13.0MP MIUI 7 White Black Mobile Phones.",
     description: "",
@@ -74,7 +76,7 @@ export let ITEMS = [
   {
     id: 2,
     category_id: 1,
-    name: "Makeup tool",
+    name: "문화",
     price: 30,
     shipping: 0,
     num_orders: 1102,
@@ -82,17 +84,20 @@ export let ITEMS = [
     num_wish_list: 201,
     on_wish_list: false,
     sale_price: null,
-    thumb: "assets/img/items/item_4.jpg",
+    thumb: "assets/img/mainCategory/culture.jpg",
     images: [
-      "assets/img/detail/d_1.jpg",
-      "assets/img/detail/d_2.jpg",
-      "assets/img/detail/d_3.jpg"
+      "assets/img/mainCategory/sport5.jpg",
+      "assets/img/mainCategory/culture.jpg",
+      "assets/img/mainCategory/medical.jpg",
+      "assets/img/mainCategory/education.jpg",
+      "assets/img/mainCategory/project.jpg",
+      "assets/img/mainCategory/ads.jpg",
     ]
   },
   {
     id: 3,
     category_id: 1,
-    name: "Zara coat",
+    name: "의료",
     price: 30,
     shipping: 0,
     num_orders: 1102,
@@ -100,17 +105,20 @@ export let ITEMS = [
     num_wish_list: 201,
     on_wish_list: false,
     sale_price: null,
-    thumb: "assets/img/items/item_5.jpg",
+    thumb: "assets/img/mainCategory/medical.jpg",
     images: [
-      "assets/img/detail/d_1.jpg",
-      "assets/img/detail/d_2.jpg",
-      "assets/img/detail/d_3.jpg"
+      "assets/img/mainCategory/sport5.jpg",
+      "assets/img/mainCategory/culture.jpg",
+      "assets/img/mainCategory/medical.jpg",
+      "assets/img/mainCategory/education.jpg",
+      "assets/img/mainCategory/project.jpg",
+      "assets/img/mainCategory/ads.jpg",
     ]
   },
   {
     id: 4,
     category_id: 1,
-    name: "Car phone",
+    name: "교육",
     price: 30,
     shipping: 0,
     num_orders: 1102,
@@ -118,17 +126,20 @@ export let ITEMS = [
     num_wish_list: 201,
     on_wish_list: false,
     sale_price: 20,
-    thumb: "assets/img/items/item_6.jpg",
+    thumb: "assets/img/mainCategory/education.jpg",
     images: [
-      "assets/img/detail/d_1.jpg",
-      "assets/img/detail/d_2.jpg",
-      "assets/img/detail/d_3.jpg"
+      "assets/img/mainCategory/sport5.jpg",
+      "assets/img/mainCategory/culture.jpg",
+      "assets/img/mainCategory/medical.jpg",
+      "assets/img/mainCategory/education.jpg",
+      "assets/img/mainCategory/project.jpg",
+      "assets/img/mainCategory/ads.jpg",
     ]
   },
   {
     id: 5,
     category_id: 1,
-    name: "Iphone 6 case",
+    name: "프로젝트",
     price: 30,
     shipping: 0,
     num_orders: 1102,
@@ -136,17 +147,20 @@ export let ITEMS = [
     num_wish_list: 201,
     on_wish_list: false,
     sale_price: 20,
-    thumb: "assets/img/items/item_1.jpg",
+    thumb: "assets/img/mainCategory/project.jpg",
     images: [
-      "assets/img/detail/d_1.jpg",
-      "assets/img/detail/d_2.jpg",
-      "assets/img/detail/d_3.jpg"
+      "assets/img/mainCategory/sport5.jpg",
+      "assets/img/mainCategory/culture.jpg",
+      "assets/img/mainCategory/medical.jpg",
+      "assets/img/mainCategory/education.jpg",
+      "assets/img/mainCategory/project.jpg",
+      "assets/img/mainCategory/ads.jpg",
     ]
   },
   {
     id: 6,
     category_id: 1,
-    name: "Makeup",
+    name: "광고",
     price: 30,
     shipping: 0,
     num_orders: 1102,
@@ -154,11 +168,14 @@ export let ITEMS = [
     num_wish_list: 201,
     on_wish_list: false,
     sale_price: null,
-    thumb: "assets/img/items/item_2.jpg",
+    thumb: "assets/img/mainCategory/ads.jpg",
     images: [
-      "assets/img/detail/d_1.jpg",
-      "assets/img/detail/d_2.jpg",
-      "assets/img/detail/d_3.jpg"
+      "assets/img/mainCategory/sport5.jpg",
+      "assets/img/mainCategory/culture.jpg",
+      "assets/img/mainCategory/medical.jpg",
+      "assets/img/mainCategory/education.jpg",
+      "assets/img/mainCategory/project.jpg",
+      "assets/img/mainCategory/ads.jpg",
     ]
   }
 ]

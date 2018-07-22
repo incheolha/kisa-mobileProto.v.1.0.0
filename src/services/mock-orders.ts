@@ -7,18 +7,18 @@ export let ORDERS = [
     items: [
       {
         id: 1,
-        name: "Xiaomi Mi 4",
+        name: "요가 트레이닝",
         quantity: 1,
         price: 300,
-        thumb: "assets/img/items/item_3.jpg",
+        thumb: "assets/img/health/health1.jpg",
       },
       {
         id: 2,
         category_id: 1,
-        name: "Makeup tool",
+        name: "덴스 트레이닝",
         quantity: 2,
         price: 30,
-        thumb: "assets/img/items/item_4.jpg",
+        thumb: "assets/img/health/health2.jpg",
       }
     ]
   },
@@ -30,18 +30,18 @@ export let ORDERS = [
     items: [
       {
         id: 1,
-        name: "Zara coat",
+        name: "덴스 트레이닝",
         quantity: 1,
         price: 30,
-        thumb: "assets/img/items/item_5.jpg",
+        thumb: "assets/img/health/health3.jpg",
       },
       {
         id: 2,
         category_id: 1,
-        name: "Makeup tool",
+        name: "핼스 트레이닝",
         quantity: 2,
         price: 30,
-        thumb: "assets/img/items/item_4.jpg",
+        thumb: "assets/img/health/health4.jpg",
       }
     ]
   },
@@ -53,18 +53,18 @@ export let ORDERS = [
     items: [
       {
         id: 1,
-        name: "Xiaomi Mi 4",
+        name: "미식축구",
         quantity: 1,
         price: 300,
-        thumb: "assets/img/items/item_3.jpg",
+        thumb: "assets/img/ball/football-min.jpg",
       },
       {
         id: 2,
         category_id: 1,
-        name: "Car phone",
+        name: "농구",
         quantity: 2,
         price: 30,
-        thumb: "assets/img/items/item_6.jpg",
+        thumb: "assets/img/ball/basket-min.jpg",
       }
     ]
   }

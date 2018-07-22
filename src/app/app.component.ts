@@ -30,56 +30,56 @@ export class MyApp {
 
   public pages = [
     {
-      title: 'Home',
+      title: 'KISA 홈',
       icon: 'ios-home-outline',
       count: 0,
       component: HomePage
     },
 
     {
-      title: 'Categories',
+      title: '주요서비스 목록',
       icon: 'ios-list-box-outline',
       count: 0,
       component: CategoriesPage
     },
 
     {
-      title: 'WishList',
+      title: '관심대상 목록',
       icon: 'md-heart-outline',
       count: 2,
       component: WishListPage
     },
 
     {
-      title: 'My Order',
+      title: '주문 내역',
       icon: 'ios-timer-outline',
       count: 0,
       component: MyOrderPage
     },
 
     {
-      title: 'My Account',
+      title: '내정보수정',
       icon: 'ios-contact-outline',
       count: 0,
       component: MyAccountPage
     },
 
     {
-      title: 'Cart',
+      title: '장바구니',
       icon: 'ios-cart-outline',
       count: 1,
       component: CartPage
     },
 
     {
-      title: 'Settings',
+      title: '환경설정',
       icon: 'ios-settings-outline',
       count: 0,
       component: SettingsPage
     },
 
     {
-      title: 'Logout',
+      title: '로그아웃',
       icon: 'log-out',
       count: 0,
       component: LoginPage

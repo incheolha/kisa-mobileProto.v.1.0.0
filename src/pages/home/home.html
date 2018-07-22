@@ -53,27 +53,7 @@
     </ion-list>
   </ion-card>
 
-  <!--Deals-->
-  <ion-grid class="grid-no-padding deals">
-    <ion-row>
-      <ion-col text-center>
-        <ion-card>
-          <div>Flash Deals</div>
-          <ion-badge color="primary">00:00:01</ion-badge>
-          <img src="assets/img/items/item_1.jpg" alt="">
-        </ion-card>
-      </ion-col>
-      <ion-col text-center>
-        <ion-card>
-          <div>Super Deals</div>
-          <ion-badge color="primary">Up to 90% off</ion-badge>
-          <img src="assets/img/items/item_2.jpg" alt="">
-        </ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
-
-  <h4 text-center>JUST FOR YOU</h4>
+  <h4 text-center>KISA만이 주는 특별서비스</h4>
 
   <!--List of items-->
   <ion-grid class="list-cards">
@@ -81,8 +61,30 @@
       <ion-col *ngFor="let item of items" col-6 class="product" (click)="viewItem(item.id)">
         <div class="card light-bg">
           <img src="{{ item.thumb }}" alt="{{ item.name }}">
-          <div class="price" text-center>{{ item.price | currency:'USD':true }}</div>
+          <div class="price" text-center>{{ item.name}}</div>
         </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <!--Deals-->
+  <h4 text-center>내가 본 상품</h4>
+  <ion-grid class="grid-no-padding deals">
+    <ion-row>
+      <ion-col text-center>
+        <ion-card>
+          <div>번개 세일</div>
+          <ion-badge color="primary">00:00:01</ion-badge>
+          <img src="assets/img/health/health1.jpg" alt="">
+        </ion-card>
+      </ion-col>
+      <ion-col text-center>
+        <ion-card>
+          <div>충격 파격세일</div>
+          <ion-badge color="primary">Up to 90% off</ion-badge>
+          <img src="assets/img/ball/ball-min.jpg" alt="">
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
