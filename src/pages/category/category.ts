@@ -7,12 +7,6 @@ import {ModalFilterPage} from "../modal-filter/modal-filter";
 import {ItemPage} from "../item/item";
 import {CartPage} from "../cart/cart";
 
-/*
- Generated class for the LoginPage page.
-
- See http://ionicframework.com/docs/v2/components/#navigation for more info on
- Ionic pages and navigation.
- */
 @Component({
   selector: 'page-category',
   templateUrl: 'category.html'

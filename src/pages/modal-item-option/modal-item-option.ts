@@ -3,12 +3,6 @@ import {NavController, NavParams, ViewController, ToastController} from 'ionic-a
 
 import {ItemService} from '../../services/item-service';
 
-/*
- Generated class for the LoginPage page.
-
- See http://ionicframework.com/docs/v2/components/#navigation for more info on
- Ionic pages and navigation.
- */
 @Component({
   selector: 'page-modal-item-option',
   templateUrl: 'modal-item-option.html'

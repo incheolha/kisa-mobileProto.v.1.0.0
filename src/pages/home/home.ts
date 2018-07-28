@@ -9,12 +9,6 @@ import {SearchPage} from "../search/search";
 import {CartPage} from "../cart/cart";
 
 
-/*
- Generated class for the LoginPage page.
-
- See http://ionicframework.com/docs/v2/components/#navigation for more info on
- Ionic pages and navigation.
- */
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
